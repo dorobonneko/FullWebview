@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/back"
+        app:title="Back"
+		app:icon="@drawable/arrow_left"
+		app:color="@null"/>
+	<item
+        android:id="@+id/home"
+        app:title="Home"
+		app:icon="@drawable/home_outline"
+		app:color="@null"/>
+	<item
+        android:id="@+id/multiWondow"
+        app:title="MultiWindow"
+		app:icon="@drawable/close"
+		app:color="@null"/>
+	<item
+        android:id="@+id/preview"
+        app:title="Preview"
+		app:icon="@drawable/arrow_right"
+		app:color="@null"/>
+    
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name = "SectorMenu">
+
+		<attr name="icon" format="reference"/>
+		<attr name="title" format="string|reference"/>
+		<!--<attr name="vibrate" format="boolean|reference"/>-->
+		<attr name="color" format="color|reference"/>
+		</declare-styleable>
+	<declare-styleable name = "SectorButton">
+		<attr name="menu" format="reference"/>
+		<attr name="icon" format="reference"/>-->
+		<attr name="vibrate" format="boolean|reference"/>
+		<attr name="gravity">
+			<enum name="left" value="-1"/>
+			<enum name="right" value="1"/>
+			<enum name="center" value="0"/>
+		</attr>
+	</declare-styleable>
+</resources>
+
